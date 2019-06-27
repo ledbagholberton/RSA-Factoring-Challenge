@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 #import pdb; pdb.set_trace()
 import math
-with open("tests", 'r', encoding='utf-8') as f:
+import sys
+
+filename = sys.argv[1]
+
+with open(filename, 'r', encoding='utf-8') as f:
     a = f.read()
     a_l = a.count("\n")
 lineas = 0
