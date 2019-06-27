@@ -10,7 +10,7 @@ with open(filename, 'r', encoding='utf-8') as f:
     a_l = a.count("\n")
 lineas = 0
 b = 0
-with open("tests", 'r', encoding='utf-8') as f:
+with open(filename, 'r', encoding='utf-8') as f:
     while lineas < a_l:
         n1 = int (f.readline())
         lineas += 1
